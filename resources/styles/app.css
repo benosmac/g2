@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: serif;
+  }
+}
+
+@keyframes colorme {
+  0% {
+    filter: grayscale(1);
+    opacity: 0;
+  }
+  50% {
+    filter: grayscale(1);
+    opacity: 1;
+  }
+  100% {
+    filter: grayscale(0);
+  }
+}
+@keyframes showMe {
+  0% {
+    filter: blur(10px);
+    /* transform: translateX(-60px); */
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    /* transform: translateX(0); */
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+.hero-img {
+  animation: 2s ease-in 1s backwards colorme;
+}
+.hero-text {
+  animation: 1s ease-in backwards showMe;
+}
