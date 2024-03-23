@@ -1249,16 +1249,6 @@
           "color": "#4c0519",
           "name": "Rose 950",
           "slug": "rose-950"
-        },
-        {
-          "color": "oklch(49.88% 0.1131 206.47)",
-          "name": "Brand-colour",
-          "slug": "brand-colour"
-        },
-        {
-          "color": "oklch(91.33% 0.0302 128.12)",
-          "name": "Secondary-colour",
-          "slug": "secondary-colour"
         }
       ]
     },
@@ -1284,14 +1274,19 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "fontFamily": "Graphik,sans-serif",
-          "name": "Graphik",
+          "fontFamily": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+          "name": "Ui-sans-serif",
           "slug": "sans"
         },
         {
-          "fontFamily": "Merriweather,serif",
-          "name": "Merriweather",
+          "fontFamily": "ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif",
+          "name": "Ui-serif",
           "slug": "serif"
+        },
+        {
+          "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+          "name": "Ui-monospace",
+          "slug": "mono"
         }
       ],
       "fontSizes": [

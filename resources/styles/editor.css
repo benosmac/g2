@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply border-2 border-brand-colour text-brand-colour font-bold p-4 rounded no-underline hover:bg-brand-colour hover:text-secondary-colour transition-colors duration-100 ease-in-out;
+}
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: serif;
+  }
+}
